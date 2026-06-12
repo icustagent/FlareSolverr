@@ -7,7 +7,7 @@ services:
       - "8191:8191"
     environment:
       TZ: Asia/Hong_Kong
-      LOG_LEVEL: debug
+      LOG_LEVEL: info
       LOG_FILE: /config/flaresolverr.log
       LOG_HTML: true
       CAPTCHA_SOLVER: none
