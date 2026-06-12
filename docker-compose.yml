@@ -11,7 +11,7 @@ services:
       LOG_FILE: /config/flaresolverr.log
       LOG_HTML: true
       CAPTCHA_SOLVER: none
-      PROXY_URL: socks5h://microwarp:1080
+      PROXY_URL: socks5://microwarp:1080
     volumes:
       - flaresolverr:/config
     networks:
